@@ -1,0 +1,67 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #1877f2;
+}
+
+.photo-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.photo-placeholder span {
+    font-size: 80px;
+    font-weight: bold;
+    color: #495057;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+.total-age {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    background-color: #e7f3fe;
+    padding: 10px;
+    border-radius: 8px;
+}
